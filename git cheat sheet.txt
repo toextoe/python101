@@ -1,0 +1,29 @@
+Git Cheat Sheet for Daily Use
+
+1. Check status — see what changed
+git status
+
+2. Stage files for commit (all files)
+git add .
+
+3. Commit changes with a message
+git commit -m "Describe what you changed"
+
+4. Push your changes to GitHub
+git push
+
+Bonus commands
+
+- If you work on multiple computers or collaborate, you might want to get the latest changes from GitHub.
+git pull
+- This fetches new commits from the remote repo and merges them into your local folder.
+- Run this in your VS Code terminal before you start working to sync.
+
+- View commit history:
+git log
+
+- Undo last commit (careful!):
+git reset --soft HEAD~1
+
+- Clone a repo to your computer:
+git clone https://github.com/username/repo.git
